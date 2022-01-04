@@ -3,7 +3,7 @@ function readFile(fileName, callback) {
     if (typeof fileName !== 'string') {
         return process.nextTick(
             callback, 
-            new TypeError('file name must be string')
+            new TypeError('file name should be string')
         )
     }
 
