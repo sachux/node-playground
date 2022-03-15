@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "node js playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachux/node-playground.git"
+  },
+  "keywords": [
+    "learn",
+    "nodejs"
+  ],
+  "author": "sachux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachux/node-playground/issues"
+  },
+  "homepage": "https://github.com/sachux/node-playground#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1"
+  }
+}
