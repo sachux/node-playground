@@ -25,4 +25,4 @@ const getConversionDetails = async () => {
 
 };
 
-log(getConversionDetails());
+module.exports = getConversionDetails;
