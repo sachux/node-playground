@@ -1,5 +1,5 @@
-const axios = require("axios");
-const chalk = require("chalk");
+import axios from "axios";
+import chalk from "chalk";
 const log = console.log;
 
 const API_URL = "https://gorest.co.in/public/v2/users";
@@ -8,7 +8,7 @@ const API_URL = "https://gorest.co.in/public/v2/users";
  * This will fetch the conversion details from an external api
  * @returns Promise
  */
-const getConversionDetails = async () => {
+const getDetails = async () => {
     try {
         let res = await axios.get(API_URL);
 
